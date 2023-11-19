@@ -98,7 +98,7 @@ home_banner:
     light: /images/banner_day.jpeg # light mode
     dark: /images/banner_night.jpg # dark mode
   # Home banner title
-  title: Welcome to Yan's Blog
+  title: Welcome to My Blog
   # Home banner subtitle
   subtitle:
     text: [

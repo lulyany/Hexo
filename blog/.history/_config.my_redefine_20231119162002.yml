@@ -98,7 +98,7 @@ home_banner:
     light: /images/banner_day.jpeg # light mode
     dark: /images/banner_night.jpg # dark mode
   # Home banner title
-  title: Welcome to Yan's Blog
+  title: Welcome to My Blog
   # Home banner subtitle
   subtitle:
     text: [
@@ -281,7 +281,7 @@ articles:
     # Whether to enable article recommendation
     enable: true
     # Article recommendation title
-    title: Just for You
+    title:
     # Max number of articles to display
     limit: 3
     # Max number of articles to display mobile
@@ -302,7 +302,7 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://comment.findyan.com # Waline server URL. e.g. https://example.example.com
+      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
