@@ -1,0 +1,12 @@
+---
+title: About Me
+date: 2023-11-20 00:51:14
+categories:
+- [self-portrait]
+tags: 
+excerpt: This is a rebirth.
+cover: "../image/about-me.jpg"
+---
+Hi there!
+
+To be continued ...
