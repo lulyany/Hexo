@@ -174,15 +174,9 @@ navbar:
     Archives:
       path: /archives
       icon: fa-regular fa-archive # can be empty
-    Categories:
-      icon: fa-regular fa-folder # can be empty
-      path: /categories
     # Status:
     #   path: https://status.evanluo.top/
     #   icon: fa-regular fa-chart-bar
-    Resume:
-      icon: fa-regular fa-file-lines
-      path: /resume/YanLu_CV_EN.pdf
     About:
       icon: fa-regular fa-user
       submenus:
@@ -287,7 +281,7 @@ articles:
     # Whether to enable article recommendation
     enable: true
     # Article recommendation title
-    title: Recommended for you
+    title:Recommended for you 
     # Max number of articles to display
     limit: 3
     # Max number of articles to display mobile

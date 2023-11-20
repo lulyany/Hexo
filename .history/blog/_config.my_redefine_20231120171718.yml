@@ -182,7 +182,7 @@ navbar:
     #   icon: fa-regular fa-chart-bar
     Resume:
       icon: fa-regular fa-file-lines
-      path: /resume/YanLu_CV_EN.pdf
+      path: /resume/YanLu-CV_EN.pdf
     About:
       icon: fa-regular fa-user
       submenus:

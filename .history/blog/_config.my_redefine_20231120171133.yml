@@ -177,12 +177,10 @@ navbar:
     Categories:
       icon: fa-regular fa-folder # can be empty
       path: /categories
+      
     # Status:
     #   path: https://status.evanluo.top/
     #   icon: fa-regular fa-chart-bar
-    Resume:
-      icon: fa-regular fa-file-lines
-      path: /resume/YanLu_CV_EN.pdf
     About:
       icon: fa-regular fa-user
       submenus:
