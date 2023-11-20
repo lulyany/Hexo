@@ -153,7 +153,7 @@ home_banner:
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
-      weixin: images/my_wechat.JPG # your Wechat QRcode image URL
+      weixin: images/my_wechat.png # your Wechat QRcode image URL
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -185,7 +185,7 @@ navbar:
         Email: royly010@fomail.com
         Github: https://github.com/lulyany
         Steam: https://steamcommunity.com/profiles/76561198363854961/
-        Wechat: images/my_wechat.JPG
+        Wechat: images/my_wechat.png
         # Blog: https://findyan.com
         # Friends: /friends
     # Links:
@@ -303,7 +303,7 @@ comment:
     # Waline comment system. See https://waline.js.org/
     waline:
       serverUrl: https://comment.findyan.com # Waline server URL. e.g. https://example.example.com
-      lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+      lang: zh-US # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
       clientID: # GitHub Application Client ID
@@ -335,11 +335,11 @@ footer:
   # Show website running time
   runtime: true # show website running time or not
   # Icon in footer, write fontawesome icon code here
-  icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+  icon: '<i class="fa-solid fa-heart fa-beat-fade" style="--fa-animation-duration: 2s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2023/11/18 00:00:00
   # Footer message
-  customize:
+  customize: "Thanks for Visiting Yan's Blog"
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
     enable: false # Whether to enable
