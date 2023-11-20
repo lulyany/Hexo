@@ -107,7 +107,6 @@ home_banner:
         "Imagination determines the upper limit.",
         "Explore the universe.",
         "What most people think is wrong.",
-        "Think about things that others haven't thought about",
       ] # subtitle text, array
     hitokoto: # 一言配置
       enable: false # Whether to enable hitokoto

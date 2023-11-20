@@ -107,7 +107,6 @@ home_banner:
         "Imagination determines the upper limit.",
         "Explore the universe.",
         "What most people think is wrong.",
-        "Think about things that others haven't thought about",
       ] # subtitle text, array
     hitokoto: # 一言配置
       enable: false # Whether to enable hitokoto
@@ -255,7 +254,7 @@ articles:
   author_label:
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
-    list: ["Intern Product Manager"]
+    list: ["Owner"]
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
