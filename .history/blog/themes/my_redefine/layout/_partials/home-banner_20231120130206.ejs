@@ -54,19 +54,19 @@
                     <% if(theme.home_banner.social_links.links[key]) { %>
                         <% if(key === 'email') { %>
                             <span class="social-contact-item <%= key %>">
-                                <a href="mailto:<%- theme.home_banner.social_links.links[key] %>" aria-label="email-icon">
+                                <a href="mailto:<%- theme.home_banner.social_links.links[key] %>" aria-label>
                                     <i class="fa-solid fa-envelope"></i>
                                 </a>
                             </span>
                         <% } else if(key.includes("fa-")) { %>
                             <span class="social-contact-item">
-                                <a target="_blank" href="<%- theme.home_banner.social_links.links[key] %>" aria-label="icon">
+                                <a target="_blank" href="<%- theme.home_banner.social_links.links[key] %>">
                                     <i class="<%= key %> fa-sm"></i>
                                 </a>
                             </span>
                         <% } else { %>
                             <span class="social-contact-item <%= key %>">
-                                <a target="_blank" href="<%- theme.home_banner.social_links.links[key] %>" aria-label="icon">
+                                <a target="_blank" href="<%- theme.home_banner.social_links.links[key] %>">
                                     <i class="fa-brands fa-<%= key %>"></i>
                                 </a>
                             </span>
@@ -82,7 +82,7 @@
                                     <i class="<%= key %> fa-sm"></i>
 									<div class="social-qr-container fade-in-down-animation">
 										<img class="social-contacts-qr"
-                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>" alt=""qr-code"/>
+                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>"/>
 									</div>
                                 </a>
                             </span>
@@ -92,7 +92,7 @@
                                     <i class="fa-brands fa-<%= key %>"></i>
 									<div class="social-qr-container fade-in-down-animation">
 										<img class="social-contacts-qr"
-                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>" alt="qr-code"/>
+                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>"/>
 									</div>
                                 </a>
                             </span>

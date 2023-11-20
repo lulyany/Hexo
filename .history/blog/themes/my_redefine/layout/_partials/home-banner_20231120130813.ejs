@@ -1,7 +1,8 @@
 <% if (theme.home_banner.style === "fixed") { %>
     <style>
         .home-banner-container {
-            background: transparent !important;
+            <!-- background: transparent !important; -->
+            
         }
 
         .home-article-item,
@@ -82,7 +83,7 @@
                                     <i class="<%= key %> fa-sm"></i>
 									<div class="social-qr-container fade-in-down-animation">
 										<img class="social-contacts-qr"
-                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>" alt=""qr-code"/>
+                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>"/>
 									</div>
                                 </a>
                             </span>
@@ -92,7 +93,7 @@
                                     <i class="fa-brands fa-<%= key %>"></i>
 									<div class="social-qr-container fade-in-down-animation">
 										<img class="social-contacts-qr"
-                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>" alt="qr-code"/>
+                                             src="<%- url_for(theme.home_banner.social_links.qrs[key]) %>"/>
 									</div>
                                 </a>
                             </span>
