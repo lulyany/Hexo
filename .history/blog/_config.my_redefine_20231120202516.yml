@@ -186,7 +186,7 @@ navbar:
     About:
       icon: fa-regular fa-user
       submenus:
-        Me: /2023/11/20/About-Me/
+        Me: /About-Me
         Linkedin: https://www.linkedin.com/in/yan-lu-642694212/
         Email: royly010@fomail.com
         Github: https://github.com/lulyany

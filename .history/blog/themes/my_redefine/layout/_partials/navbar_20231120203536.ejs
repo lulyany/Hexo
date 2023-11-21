@@ -23,9 +23,7 @@
                             <li class="navbar-item">
                                 <!-- Menu -->
                                 <a class="<% if (theme.navbar.links[i].submenus) { %>has-dropdown" <% } else {%><%- isInHomePaging(page.path, theme.navbar.links[i].path) ? 'active' : is_current(theme.navbar.links[i].path) ? 'active' : '' %>" <% } %>
-                                    <% if (String(theme.navbar.links[i].path).endsWith('.pdf')) { %>target="_blank"<% } %>
                                     href="<% if (theme.navbar.links[i].submenus) { %>#"<% } else {%><%- url_for(theme.navbar.links[i].path) %>" <% } %> <% if (theme.navbar.links[i].submenus) { %>onClick="return false;"<% } else {%><% } %>>
-                                    
                                     <% if (theme.navbar.links[i].submenus) { %>
                                         <% if (theme.navbar.links[i].icon) { %>
                                             <i class="<%- theme.navbar.links[i].icon %>"></i>
@@ -78,6 +76,7 @@
                     <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
                         <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group <% if (theme.navbar.links[i].submenus) { %>has-dropdown" <% } else {%><%- isInHomePaging(page.path, theme.navbar.links[i].path) ? 'active' : is_current(theme.navbar.links[i].path) ? 'active' : '' %>" <% } %>
                         href="<% if (theme.navbar.links[i].submenus) { %>#"<% } else {%><%- url_for(theme.navbar.links[i].path) %>" <% } %> <% if (theme.navbar.links[i].submenus) { %>onClick="return false;"<% } else {%><% } %>>
+                        <% if (theme.navbar.links[i].path) { %>target="_blank"<% } %>>
                             <% if (theme.navbar.links[i].submenus) { %>
                                 <% if (theme.navbar.links[i].icon) { %>
                                     <i class="<%- theme.navbar.links[i].icon %>"></i>
