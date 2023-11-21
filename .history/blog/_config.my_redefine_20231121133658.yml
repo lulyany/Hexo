@@ -165,7 +165,7 @@ navbar:
   color:
     left: "#0acffe" #left side
     right: "#495aff" #right side
-    transparency: 30 #percent (10-99)
+    transparency: 50 #percent (10-99)
   # Navbar links
   links:
     Home:
