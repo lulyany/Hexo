@@ -1,6 +1,6 @@
 <% if(theme.comment.system === 'waline' && theme.comment.config.waline.serverUrl && theme.comment.config.waline.lang) { %>
     <div id="waline"></div>
-    <label for="wl-edit" aria-label="Edit text box."></label>
+    <label for="wl-edit" aria-label="wl-deit"></label>
     <script type="module" data-swup-reload-script>
       import { init } from '<%= url_for('js/libs/waline.mjs') %>';
 
@@ -19,7 +19,5 @@
       } else {
         window.addEventListener('DOMContentLoaded', loadWaline);
       }
-
-      document.querySelector('label[title="Upload Image"]').setAttribute('aria-label', 'Upload your image.');
     </script>
 <% } %>
